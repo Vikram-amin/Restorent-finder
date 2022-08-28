@@ -1,0 +1,33 @@
+\? -> help
+\l -> lists of database
+ CREATE DATABASE dbname; -> create database
+ \c dbname; -> connect to db
+
+ CREATE TABLE products (
+    id INT,
+    name varchar(50),
+    price INT,
+    on_sale boolean
+ );
+
+\d ->  list all the table
+\d products -> see that table
+Alter table products ADD Column featured boolean; -> modiffy table
+alter table products drop column featured; -> delete column
+DROP TABLE products; -> delete table
+DROP DATABASE practice; -> delete data base
+
+
+CREATE TABLE restorents (
+  id INT,
+  name varchar(50),
+  location varchar(50),
+  price_range INT
+);
+
+
+Insert Into restorents (id,name,location,price_range) values (1,'KFC','newyork',3);
+
+Insert Into restorents (name,location,price_range) values ('KFC','newyork',3), ('Subway','kota',4);
+
+select * from restorents;
