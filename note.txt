@@ -31,3 +31,9 @@ Insert Into restorents (id,name,location,price_range) values (1,'KFC','newyork',
 Insert Into restorents (name,location,price_range) values ('KFC','newyork',3), ('Subway','kota',4);
 
 select * from restorents;
+
+
+
+
+
+npm i morgan   middleware
